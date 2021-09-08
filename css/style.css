@@ -46,9 +46,10 @@ li { /* Serve per disporre orizzontalmente gli elementi della lista, separandoli
 }
 
 a { /* Serve per definire lo stile dei link da schiacciare */
-    padding: 4.5px 7.5px;
-    /* height: 30px;
-    width: 30px; */
+    padding: 7.5px 9.5px;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
     background-color: white;
     text-decoration: none;
@@ -56,6 +57,7 @@ a { /* Serve per definire lo stile dei link da schiacciare */
     font-size: 13px;
     font-weight: bolder;
     border: 1px solid black;
+    text-align: center;
 }
 
 .image_and_description { /* Sposta l'immagine e la descrizione al centro della schermata, in un unico blocco */
