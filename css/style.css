@@ -46,9 +46,9 @@ li { /* Serve per disporre orizzontalmente gli elementi della lista, separandoli
 }
 
 a { /* Serve per definire lo stile dei link da schiacciare */
-    /* padding: 4.5px 7.5px; */
-    height: 30px;
-    width: 30px;
+    padding: 4.5px 7.5px;
+    /* height: 30px;
+    width: 30px; */
     border-radius: 50%;
     background-color: white;
     text-decoration: none;
