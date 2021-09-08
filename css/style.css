@@ -1,80 +1,83 @@
-* {
+* { /* Serve per resettare le impostazioni di default del browser */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.clearfix {
+.clearfix { /* Serve in caso di oggetti in float */
     content: "";
     display: table;
     clear: both;
 }
 
-.container {
+.container { /* Regola la grandezza del container a tutto schermo */
     width: 100%;
     height: 100vh;
 }
 
-.container_red {
+.container_red { /* Serve per definire lo stile del primo contenitore */
     background-color: red;
     color: yellow;
     position: relative;
 }
 
-.container_green {
+.container_green { /* Serve per definire lo stile del secondo contenitore */
     background-color: green;
     color: yellow;
     position: relative;
 }
 
-.container_yellow {
+.container_yellow { /* Serve per definire lo stile del terzo contenitore */
     background-color: yellow;
     color: green;
     position: relative;
 }
 
-ul {
+ul { /* Serve per posizionare correttamente la lista dei link */
     list-style: none;
     float: right;
     transform: translate(-10px, 40px);
 }
 
-li {
+li { /* Serve per disporre orizzontalmente gli elementi della lista, separandoli con dei margini */
     display: inline-block;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-a {
-    padding: 12px;
+a { /* Serve per definire lo stile dei link da schiacciare */
+    /* padding: 4.5px 7.5px; */
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
     background-color: white;
     text-decoration: none;
     color: black;
-    font-size: 26px;
+    font-size: 13px;
     font-weight: bolder;
+    border: 1px solid black;
 }
 
-.image_and_description {
+.image_and_description { /* Sposta l'immagine e la descrizione al centro della schermata, in un unico blocco */
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.image_container {
+.image_container { /* Serve per definire la larghezza del container dell'immagine */
     width: 60%;
     margin: 0 auto;
 }
 
-img {
+img { /* Serve per dare all'immagine le dimensioni del suo contenitore */
     width: 100%;
     height: 100%;
     object-fit: contain;
     margin: auto;
 }
 
-h2 {
+h2 { /* Serve per dare lo stile alle varie scritte della pagina */
     margin: 0 auto;
     width: 60%;
     text-align: center;
