@@ -68,7 +68,7 @@ a { /* Serve per definire lo stile dei link da schiacciare */
 }
 
 .image_container { /* Serve per definire la larghezza del container dell'immagine */
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -84,6 +84,6 @@ h2 { /* Serve per dare lo stile alle varie scritte della pagina */
     width: 60%;
     text-align: center;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 60px;
     font-family: 'Rubik Mono One', sans-serif;
 }
