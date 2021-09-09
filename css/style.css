@@ -13,6 +13,7 @@
 .container { /* Regola la grandezza del container a tutto schermo */
     width: 100%;
     height: 100vh;
+    position: relative;
     overflow: hidden;
 }
 
