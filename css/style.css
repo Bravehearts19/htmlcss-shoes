@@ -13,6 +13,7 @@
 .container { /* Regola la grandezza del container a tutto schermo */
     width: 100%;
     height: 100vh;
+    overflow: hidden;
 }
 
 .container_red { /* Serve per definire lo stile del primo contenitore */
